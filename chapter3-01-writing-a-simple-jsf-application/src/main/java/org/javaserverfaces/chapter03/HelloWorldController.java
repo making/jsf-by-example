@@ -20,7 +20,7 @@ public class HelloWorldController implements Serializable {
 	 * Creates a new instance of HelloWorldController
 	 */
 	public HelloWorldController() {
-		hello = "Hello World2";
+		hello = "Hello World";
 	}
 
 	/**
