@@ -15,10 +15,10 @@ import javax.servlet.ServletException;
 import java.util.Collections;
 
 @SpringBootApplication
-public class DemoApplication extends WebMvcConfigurerAdapter {
+public class App extends WebMvcConfigurerAdapter {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(App.class, args);
 	}
 
 	@Override
@@ -33,8 +33,7 @@ public class DemoApplication extends WebMvcConfigurerAdapter {
 			public void onStartup(ServletContext servletContext)
 					throws ServletException {
 				FacesInitializer facesInitializer = new FacesInitializer();
-				facesInitializer.onStartup(
-						Collections.singleton(DemoApplication.class),
+				facesInitializer.onStartup(Collections.singleton(App.class),
 						servletContext);
 			}
 		};
