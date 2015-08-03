@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.javaserverfaces.chapter03</groupId>
-    <artifactId>chapter3</artifactId>
+    <artifactId>chapter3-01-writing-a-simple-jsf-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>chapter3</name>
+    <name>chapter3-01-writing-a-simple-jsf-application</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
